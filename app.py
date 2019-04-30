@@ -22,7 +22,7 @@ def showSS():
     cs.pack_forget()
 
 def goToSite():
-    webbrowser.open_new(r'http://www.google.com/')
+    webbrowser.open_new(r‘https://github.com/SamrathPalSingh/file-sharing-service')
 def browse():
     folder1=filedialog.askdirectory()
     folderPath.set(folder1)
